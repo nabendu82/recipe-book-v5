@@ -11,9 +11,7 @@ describe('ShoppingListComponent', () => {
       declarations: [ ShoppingListComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(ShoppingListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

@@ -11,9 +11,7 @@ describe('RecipeStartComponent', () => {
       declarations: [ RecipeStartComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(RecipeStartComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
